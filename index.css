@@ -278,7 +278,6 @@ input[type=email]{
     height:50px;
     width:75%;
     margin-bottom: 8px;
-    /* margin-left:-30px; */
     justify-content: space-evenly;
     padding-top:25px;
     padding-left:30px;
@@ -307,4 +306,93 @@ input[type=email]{
     position:relative;
     top:-480px;
     font-size: 20px;
+}
+.mail2{
+    position:relative;
+    top:-460px;
+    left:26%;
+}
+input[type=email]{
+    width:26em;
+    margin: 4px 0px;
+    box-sizing: border-box;
+}
+.label{
+    color: white;
+    padding: 13px 25px 18px 25px;
+    margin-left:-4px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    background-color: rgb(217, 0, 0);
+}
+.label:hover{
+   background-color: rgb(239, 16, 16);
+}
+.breaker5{
+    margin-top: -380px;
+    height:6px;
+    width:100%;
+    background-color: rgb(44, 43, 43);
+}
+.helpline{
+    color: rgb(108, 106, 106);
+    display:block;
+    margin-top:60px;
+    margin-left:17%;
+    font-size: 18px;
+}
+.ftlist1{
+    display: block;
+    margin-left:14.3em;
+    margin-top:30px;
+    color:rgb(108, 106, 106);
+    font-size: 14px;
+}
+.ftlists{
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin-bottom: 16px;
+}
+.ftlists:hover{
+    text-decoration-line: underline;
+    text-decoration-color:rgb(108, 106, 106) ;
+}
+.ftlist-2{
+    display: block;
+    margin-left:31em;
+    margin-top:-128px;
+    color:rgb(108, 106, 106);
+    font-size: 14px;
+}
+.ftlist-3{
+    display: block;
+    margin-left:48em;
+    margin-top:-130px;
+    color:rgb(108, 106, 106);
+    font-size: 14px;
+}
+.ftlist-4{
+    display: block;
+    margin-left:64em;
+    margin-top:-130px;
+    color:rgb(108, 106, 106);
+    font-size: 14px;
+}
+.lang2{
+    position: relative;
+    top:40px;
+    left:17%;
+    color: white;
+    background: rgba(0, 0, 0,0.4);
+    padding:18px 30px;
+    border:1px solid rgb(71, 70, 70);
+    border-radius:4px;
+    font-size: 18px;
+}
+.footerlast{
+    color: rgb(108, 106, 106);
+    font-size: 14px;
+    margin-top: 60px;
+    margin-left: 17%;
 }
