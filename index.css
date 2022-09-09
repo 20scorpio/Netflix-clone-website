@@ -1,6 +1,7 @@
 body{
     margin:0px;
     background-color:  #000;
+    overflow-x: hidden;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .logo{
@@ -244,4 +245,66 @@ input[type=email]{
     font-size: 25px;
     font-weight: 100;
     color:white;
+}
+.breaker4{
+    margin-top: -260px;
+    height:6px;
+    width:100%;
+    background-color: rgb(44, 43, 43);
+}
+.ques{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 65px;
+}
+.fques{
+    color:white;
+    display: block;
+    justify-content: center;
+    text-align:left;
+    margin-left: 20%;
+    font-size: 25px;
+}
+.li-ques{
+    list-style-type: none;
+    margin-top: 50px;
+    margin-left:-30px;
+}
+.qlists{
+    height:50px;
+    width:75%;
+    margin-bottom: 8px;
+    /* margin-left:-30px; */
+    justify-content: space-evenly;
+    padding-top:25px;
+    padding-left:30px;
+    background-color: rgb(50, 47, 47); 
+}
+.plus{
+    display: block;
+    justify-content: space-evenly;
+    position:relative;
+    top:-520px;
+    left:75%;
+    font-size: 45px;
+    font-weight: 2px;
+    color:white;
+}
+.plussym{
+    list-style-type: none;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.btext{
+    display:block;
+    justify-content: center;
+    text-align: center;
+    color:white;
+    position:relative;
+    top:-480px;
+    font-size: 20px;
 }
